@@ -6,4 +6,6 @@ Parser to export crosslink distances from StravoX to Pymol and get a 3D visualis
 
 ##Command
 
-```awk -f parser.awk directory/input/file > filename.pml```
+```
+awk -f parser.awk directory/input/file > filename.pml
+```
