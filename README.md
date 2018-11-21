@@ -6,7 +6,7 @@ Parser to export crosslink distances from StravoX/MeroX to Pymol and get a 3D vi
 
 ## Command
 
-**/!\ This command only for a maximum of 2 proteins**
+**/!\ This command only work for a maximum of 2 proteins**
 
 ```
 awk -f parser.awk -v invert="y/n" directory/xvis_output.csv > filename.pml
